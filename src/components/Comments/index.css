@@ -1,0 +1,143 @@
+.bg-container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px;
+}
+
+.upper-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .upper-container {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}
+
+.heading {
+  color: #1e293b;
+  font-weight: bold;
+  font-size: 48px;
+  font-family: 'Roboto';
+}
+
+.left-container {
+  order: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .left-container {
+    order: 1;
+  }
+}
+
+.description {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-input {
+  height: 40px;
+  padding: 10px 20px 10px 10px;
+  color: #1e293b;
+  border-color: #cbd2d9;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border-width: 1px;
+  max-width: 400px;
+  outline: none;
+  font-family: 'Roboto';
+}
+
+.comment-input {
+  outline: none;
+  font-family: 'Roboto';
+  padding: 10px;
+  max-width: 400px;
+  color: #1e293b;
+  border-color: #cbd2d9;
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+.add-button {
+  background-color: #0284c7;
+  color: #fff;
+  border-radius: 5px;
+  height: 40px;
+  padding: 10px 12px 10px 12px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 20px;
+  max-width: 130px;
+  font-size: 12px;
+  border-style: none;
+}
+
+.img-container {
+  order: 1;
+  margin: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .img-container {
+    order: 2;
+  }
+}
+
+.line {
+  color: #cbd2d9;
+  margin: 10px 8px 20px 8px;
+}
+
+.count-of-comments {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.count-container {
+  background-color: #0284c7;
+  font-family: 'Roboto';
+  border-radius: 2px;
+  border-style: none;
+  margin-left: 15px;
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.number {
+  color: #fff;
+  font-size: 20px;
+}
+
+.no-of-comments {
+  color: #1e293b;
+  margin-left: 10px;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.comments-container {
+  margin-top: 10px;
+  margin: 0;
+  padding: 0;
+}
